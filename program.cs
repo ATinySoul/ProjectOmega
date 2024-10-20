@@ -16,7 +16,7 @@ class Program
         _client.Log += Log;
 
         // Replace 'YourBotToken' with your bot's token
-        var token = "9f19ec2b43f4718899668018a292e99195489fbe7d81952bec7892f5072e8d03";
+        var token = "";
 
         await _client.LoginAsync(TokenType.Bot, token);
         await _client.StartAsync();
